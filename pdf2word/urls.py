@@ -20,5 +20,5 @@ from django.urls import path
 from converter import views
 
 urlpatterns = [
-    path(" ", views.convert_pdf_to_word, name='convert_pdf_to_word'),
+    path("convert/", views.convert_pdf_to_word, name='convert_pdf_to_word'),
 ]
